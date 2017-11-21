@@ -1,0 +1,6 @@
+- hosts: apps
+  become: yes
+  roles:
+     - haproxy
+#    - base-config
+#    - app-server 

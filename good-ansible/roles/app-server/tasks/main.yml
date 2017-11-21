@@ -1,0 +1,7 @@
+---
+# tasks file for app-server
+
+- name: install tomcat
+  package:
+    name: tomcat
+    state: latest
